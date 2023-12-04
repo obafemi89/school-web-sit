@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University web site design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,
+100;0,200;0,300;0,400;0,600;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo 1.jpeg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times"onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showmenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>world's biggest university</h1>
+        <p>Making website is now one of the easiest thing in the world, 
+         yoi just need to learn Html, css, <br> Javascript and you are good to go,
+        </p>
+        <a href="" class="hero-btn">visit us to know more</a>
+
+
+    </div>
+
+    </section>
+    <!------  course ------->
+    <section class="course">
+        <h1>course we offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Dicta maiores, libero vero modi </p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Dicta maiores, libero vero modi </p>
+    </div>
+    <div class="course-col">
+        <h3>Post Graduate</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Dicta maiores, libero vero modi </p>
+</div>
+
+
+
+    </section>
+    <!-----------  campus-------->
+    <section class="campus">
+        <h1>Our Global Campus </h1>
+        <p>Lorem ipsum dolor sit amet consectetur</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/maxresdefault.jpg">
+                <div class="layer">
+                    <h3>London</h3>
+
+                </div>
+                <div class="row">
+                    <div class="campus-col">
+                        <img src="images/new york 1.png">
+                        <div class="layer">
+                            <h3>New York</h3>
+        
+                        </div>
+                        <div class="row">
+                            <div class="campus-col">
+                                <img src="images/Washington 1.png">
+                                <div class="layer">
+                                    <h3>Washington/h3>
+                
+                                </div>
+                
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    
+
+
+
+    <!-----Javascript for Toggle Menu---->
+    <script>
+        var navLink= document.getElementByid("navLinks");
+        function showMenu(){
+            navLink.style.right = "0";
+        }
+        function hideMenu(){
+            navLink.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html>
